@@ -1,0 +1,74 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Rebrand: replace the primary (action) blue with teal across all prototypes. */
+:root:root:root,
+:root:root:root * {
+  --ntx-color-background-action-enabled: #0f766e;
+  --ntx-color-background-action-hover: #115e59;
+  --ntx-color-background-action-pressed: #0b3f3b;
+  --ntx-color-background-action-selected: #ccfbf1;
+  --ntx-color-content-action-enabled: #0f766e;
+  --ntx-color-content-action-hover: #115e59;
+  --ntx-color-content-action-pressed: #0b3f3b;
+  --ntx-color-content-action-selected: #115e59;
+  --ntx-color-border-action-enabled: #0f766e;
+  --ntx-color-border-action-hover: #115e59;
+  --ntx-color-border-action-pressed: #0b3f3b;
+  --ntx-color-border-action-selected: #ccfbf1;
+  --ntx-color-pacific-100: #e6f7f4;
+  --ntx-color-pacific-200: #ccfbf1;
+  --ntx-color-pacific-300: #99f6e4;
+  --ntx-color-pacific-400: #5eead4;
+  --ntx-color-pacific-500: #2dd4bf;
+  --ntx-color-pacific-600: #14b8a6;
+  --ntx-color-pacific-700: #14a899;
+  --ntx-color-pacific-800: #0f9f8f;
+  --ntx-color-pacific-900: #0f766e;
+  --ntx-color-pacific-1000: #115e59;
+  --ntx-color-pacific-1100: #0b3f3b;
+  --ntx-color-pacific-1200: #134e4a;
+  --ntx-color-pacific-1300: #042f2e;
+  --ntx-color-background-default-hover: #e6f7f4;
+  --ntx-main-nav-background-color: #0b1d26;
+  --ntx-main-nav-background-color-expanded: #16303b;
+  --ntx-main-nav-background-color-selected: #5eead4;
+  --ntx-main-nav-menu-item-highlighted: #16303b;
+  --ntx-main-nav-accordion-item-highlighted: #4a6470;
+  --ntx-main-nav-badge-default: #2a4652;
+  --ntx-main-nav-select-trigger: #0f2630;
+  --ntx-main-nav-select-trigger-hover: #16303b;
+  --ntx-main-nav-select-trigger-border: #2e4b57;
+  --ntx-main-nav-select-trigger-border-hover: #5d7a86;
+  --ntx-main-nav-select-item-highlighted: #2a4652;
+  --ntx-main-nav-select-divider: #123039;
+  --ntx-main-nav-tooltip-background: #2e4b57;
+  --ntx-color-brand-secondary-navy: #0f2630;
+  --ntx-color-brand-secondary-navy-deep: #0b1d26;
+}
+
+/* Accessibility: the inverse "Got it" button sits on a light banner, so keep dark text on hover/press. */
+.exp-textura_alert .exp-textura_button:hover,
+.exp-textura_alert .exp-textura_button:active {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Smaller surface badges (Unified / Workflow / Apps) in connector dropdown lists. */
+[role="option"] .exp-textura_chip {
+  height: 16px;
+  padding: 0 6px;
+  font-size: 10px;
+  line-height: 16px;
+}

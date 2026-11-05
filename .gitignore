@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local-only: private registry auth, internal decks/screenshots, working data and tooling
+.npmrc
+data/
+pointer-config.json
+.claude/
+In-App-Feedback-Connectors-Case-Study.md
+public/*-deck.html
+public/connection-invalid/
+public/landing/
+public/option-1/
+public/option-2/
+public/_redirects
